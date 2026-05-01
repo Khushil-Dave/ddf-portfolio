@@ -56,7 +56,32 @@ Task 2 – Transistor Switch Circuit
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b4f4284d-b571-44d1-bc7d-d8dac714ef3d" width="300">
   <img src="https://github.com/user-attachments/assets/d801e5ac-bdf2-4e4e-abe6-f69ecbae37cf" width="300">
-</p>
+</p>  
+
+    My experience/observation:
+ → The LED strip turns ON and OFF using the switch. The switch controls the gate voltage (VGS), which turns the MOSFET ON or OFF, allowing current to flow through the LED strip.  
+ → As observed,The switch controls the gate voltage (VGS) of the MOSFET.  
+→ Principle applied is that: The MOSFET acts as a switch,when a gate voltage is applied, it turns ON and allows current to flow; without gate voltage, it remains OFF and blocks current.  
+
+    Task 2.2 – Dimmable LED Strip
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f981d67b-6b11-46d7-9765-f4b7aa5de56b" width="220">
+  <img src="https://github.com/user-attachments/assets/90847cae-a11d-4454-b68c-8b2e1765655a" width="220">
+  <img src="https://github.com/user-attachments/assets/ed2f5430-3e79-48f3-84bb-9211bb525b1c" width="220">
+</p>  
+A) In terms of Duty cycle:  
+
+    My Observation:
+As the duty cycle increases, the brightness of the LED strip increases.
+
+- Low duty cycle (2%) → LED is very dim  
+- Medium duty cycle (75%) → LED is moderately bright  
+- High duty cycle (100%) → LED is fully bright
+  
+→ Moreover,this happens because the LED is ON for a longer time within each cycle as the duty cycle increases.  
+→ As well as,this relationship is proportional: higher duty cycle → higher average power → brighter LED.  
+→ As i understand,both methods control LED brightness, but dimmable LED circuit (potentiometer) uses analog voltage control, while PWM uses rapid switching.So, PWM is more efficient.  
+
 
 
 
