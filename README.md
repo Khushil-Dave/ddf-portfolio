@@ -28,14 +28,37 @@ Task 1 – LED Control Circuit
   <img src="https://github.com/user-attachments/assets/2a7ae392-6c2e-48a3-b2b5-bcb2189765b4" width="200">
 </p>  
 
-   My observation:  
+    My experience/observation:  
  → When I connected the switch in the both/opposite direction, I did not observe any difference. The circuit behaved the same, and the LED functioned normally in both cases.So,i fell like the switch simply controls the flow of current, regardless of its orientation.  
  
       Task 1.3 – Dimmable LED Circuit
   <p align="center">
   <img src="https://github.com/user-attachments/assets/1692d230-f5c5-43ba-92e4-7b9e197dd42c" width="250">
   <img src="https://github.com/user-attachments/assets/15b6f570-8b9c-4a2d-88bd-4e8fb11a594e" width="250">
+</p>  
+Obsevation table:  
+
+| Position        | VLED (V) | V2 (V) |
+|-----------------|----------|--------|
+| a) Full brightness |  3.01v| 3.05v  |
+| b) Dimmed          |  2.30v| 4.45v  |
+| c) OFF             | 0.005v| 4.50v  |  
+
+    My experience/Observation:
+  → Increasing the potentiometer resistance caused the LED to gradually dim and eventually turn OFF.  
+  → Moreover,the voltage across the LED (VLED) decreased as the brightness decreased. At the same time, the voltage across the potentiometer (V2) changed accordingly.  
+  → However,the relationship is continuous: as resistance increases, current decreases, which reduces the LED brightness.  
+  → One more thing,we missed the ground connection on the potentiometer (V2 side), so the LED could not turn fully OFF. After correcting it, the circuit worked properly. 
+  
+Task 2 – Transistor Switch Circuit  
+
+    Task 2.1 – Switchable LED Strip
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b4f4284d-b571-44d1-bc7d-d8dac714ef3d" width="300">
+  <img src="https://github.com/user-attachments/assets/d801e5ac-bdf2-4e4e-abe6-f69ecbae37cf" width="300">
 </p>
+
+
 
 
 
