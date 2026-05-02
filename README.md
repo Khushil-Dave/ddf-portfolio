@@ -100,7 +100,7 @@ B) In terms of Frequence:
 - At higher frequency (100 Hz), the LED appears stable and continuously ON.
 
 → Moreover,this happens because the switching becomes too fast for the human eye to detect.  
-→ AS i observed the flickering effect gradually disappears as the frequency increases and becomes almost unnoticeable around higher frequencies (≈ 45–100 Hz).
+→ As i observed the flickering effect gradually disappears as the frequency increases and becomes almost unnoticeable around higher frequencies (≈ 45–100 Hz).
 
 
 
