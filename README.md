@@ -80,7 +80,7 @@ As the duty cycle increases, the brightness of the LED strip increases.
   
 → Moreover,this happens because the LED is ON for a longer time within each cycle as the duty cycle increases.  
 → As well as,this relationship is proportional: higher duty cycle → higher average power → brighter LED.  
-→ As i understand,both methods control LED brightness, but dimmable LED circuit (potentiometer) uses analog voltage control, while PWM uses rapid switching.So, PWM is more efficient.  
+→ As i understand,both methods control LED brightness, but potentiometer uses analog voltage control, while PWM uses rapid switching.So, PWM is more efficient.  
 
 B) In terms of Frequence:
 <p align="center">
