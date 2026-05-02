@@ -82,8 +82,25 @@ As the duty cycle increases, the brightness of the LED strip increases.
 → As well as,this relationship is proportional: higher duty cycle → higher average power → brighter LED.  
 → As i understand,both methods control LED brightness, but dimmable LED circuit (potentiometer) uses analog voltage control, while PWM uses rapid switching.So, PWM is more efficient.  
 
+B) In terms of Frequence:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/831e0733-5d72-4710-991d-de592663b71c" width="240">
+  <img src="https://github.com/user-attachments/assets/42e620f3-46b8-48e5-b8a9-e48db83fae7b" width="240">
+</p>
 
+<p align="center">
+  <em>f = 0.5 Hz, D = 50%</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em>f = 45 Hz, D = 50%</em>
+</p>  
 
+    My experience/observation:
+→ Keeping the duty cycle constant at D = 50%, I observed that the behavior of the LED strip changes with frequency.
+- At low frequency (5 Hz), the LED clearly flickers as it turns ON and OFF slowly.
+- At medium frequencies (25–45 Hz), the flickering becomes less noticeable.
+- At higher frequency (100 Hz), the LED appears stable and continuously ON.
+
+→ Moreover,this happens because the switching becomes too fast for the human eye to detect.  
+→ AS i observed the flickering effect gradually disappears as the frequency increases and becomes almost unnoticeable around higher frequencies (≈ 45–100 Hz).
 
 
 
