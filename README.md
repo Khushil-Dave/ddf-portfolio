@@ -3,18 +3,18 @@ Socio-technical systems Engineering
 Matrikel-Nr: 6640457  
 A portfolio documenting exercises and projects from the Digital Design and Fabrication course at the University of Oldenburg.  
 # Exercise 1: Electrical Circuits
-Task 1 – LED Control Circuit  
+### Task 1 – LED Control Circuit  
 
     Task 1.1 - Simple LED Circuit
-   <img src="https://github.com/user-attachments/assets/2cea63ba-24dd-4129-8281-e4fb42ce29d7" width="200">
+   <img src="https://github.com/user-attachments/assets/2cea63ba-24dd-4129-8281-e4fb42ce29d7" width="200">  
+   
   
- Observation Table:  
- 
-| Resistor (Ω) | VLED (V) | V1 (V) |
+Observation Table:  
+ | Resistor (Ω) | VLED (V) | V1 (V) |
 |--------------|--------|----------|
-| 220 Ω        | 2.86v  | 2.28v    |
-| 1000 Ω       | 2.51v  | 2.77v    |
-| 4700 Ω       | 2.31v  | 2.97v    |  
+| 220 Ω        | 2.86V  | 2.28V    |
+| 1000 Ω       | 2.51V  | 2.77V    |
+| 4700 Ω       | 2.31V  | 2.97V    |  
 
       My experience/observation: 
 → I observed that the brightness of the LED changes depending on the resistor value. With a lower resistance (220Ω), the LED was brighter, while increasing the resistance (1kΩ and 4.7kΩ) made the LED progressively dimmer.  
@@ -29,7 +29,7 @@ Task 1 – LED Control Circuit
 </p>  
 
     My experience/observation:  
- → When I connected the switch in the both/opposite direction, I did not observe any difference. The circuit behaved the same, and the LED functioned normally in both cases.So,i fell like the switch simply controls the flow of current, regardless of its orientation.  
+ → When I connected the switch in the both/opposite direction, I did not observe any difference. The circuit behaved the same, and the LED functioned normally in both cases.I observed that the switch simply controls the flow of current, regardless of its orientation.  
  
       Task 1.3 – Dimmable LED Circuit
   <p align="center">
@@ -40,17 +40,17 @@ Obsevation table:
 
 | Position        | VLED (V) | V2 (V) |
 |-----------------|----------|--------|
-| a) Full brightness |  3.01v| 3.05v  |
-| b) Dimmed          |  2.30v| 4.45v  |
-| c) OFF             | 0.005v| 4.50v  |  
+| a) Full brightness |  3.01V| 3.05V  |
+| b) Dimmed          |  2.30V| 4.45V  |
+| c) OFF             | 0.005V| 4.50V  |  
 
     My experience/Observation:
-  → Increasing the potentiometer resistance caused the LED to gradually dim and eventually turn OFF.  
+  → Increasing the potentiometer resistance caused the LED to gradually dim and eventually turns OFF.  
   → Moreover,the voltage across the LED (VLED) decreased as the brightness decreased. At the same time, the voltage across the potentiometer (V2) changed accordingly.  
   → However,the relationship is continuous: as resistance increases, current decreases, which reduces the LED brightness.  
   → One more thing,we missed the ground connection on the potentiometer (V2 side), so the LED could not turn fully OFF. After correcting it, the circuit worked properly. 
   
-Task 2 – Transistor Switch Circuit  
+### Task 2 – Transistor Switch Circuit  
 
     Task 2.1 – Switchable LED Strip
 <p align="center">
@@ -75,7 +75,7 @@ A) In terms of Duty cycle:
 As the duty cycle increases, the brightness of the LED strip increases.
 
 - Low duty cycle (2%) → LED is very dim  
-- Medium duty cycle (75%) → LED is moderately bright  
+- Medium duty cycle (40-75%) → LED is moderately bright  
 - High duty cycle (100%) → LED is fully bright
   
 → Moreover,this happens because the LED is ON for a longer time within each cycle as the duty cycle increases.  
