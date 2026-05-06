@@ -89,7 +89,7 @@ B) In terms of Frequence:
 </p>
 
 <p align="center">
-  <em>f = 0.5 Hz, D = 50%</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em>f = 5 Hz, D = 50%</em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <em>f = 45 Hz, D = 50%</em>
 </p>  
 
