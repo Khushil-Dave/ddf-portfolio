@@ -100,7 +100,21 @@ B) In terms of Frequence:
 - At higher frequency (100 Hz), the LED appears stable and continuously ON.
 
 → Moreover,this happens because the switching becomes too fast for the human eye to detect.  
-→ As i observed the flickering effect gradually disappears as the frequency increases and becomes almost unnoticeable around higher frequencies (≈ 45–100 Hz).
+→ As i observed the flickering effect gradually disappears as the frequency increases and becomes almost unnoticeable around higher frequencies (≈ 45–100 Hz).  
+# Exercise 2: Introduction to Arduino  
+### Task 2.1 – Connecting the buzzer  
+### 🔍 My experience/observation:
+
+    My experience/observation:  
+    
+I connected the buzzer to the Arduino and uploaded the test code successfully.The buzzer produced sound according to the HIGH and LOW timing values in the code. By changing the delay values, I observed that the sound pattern and speed changed noticeably.
+
+- Smaller delay → faster beeping
+- Larger delay → slower beeping
+
+This helped me understand how timing in Arduino code directly affects hardware behavior.  
+
+
 
 
 
