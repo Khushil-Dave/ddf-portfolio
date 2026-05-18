@@ -103,9 +103,11 @@ B) In terms of Frequence:
 → As i observed the flickering effect gradually disappears as the frequency increases and becomes almost unnoticeable around higher frequencies (≈ 45–100 Hz).  
 # Exercise 2: Introduction to Arduino  
 ### Task 2.1 – Connecting the buzzer  
-### 🔍 My experience/observation:
+ 
+https://github.com/user-attachments/assets/aac36e21-9d10-4d4b-8759-7579b1203ca2  
 
-    My experience/observation:  
+
+     My experience/observation:  
     
 I connected the buzzer to the Arduino and uploaded the test code successfully.The buzzer produced sound according to the HIGH and LOW timing values in the code. By changing the delay values, I observed that the sound pattern and speed changed noticeably.
 
@@ -113,6 +115,31 @@ I connected the buzzer to the Arduino and uploaded the test code successfully.Th
 - Larger delay → slower beeping
 
 This helped me understand how timing in Arduino code directly affects hardware behavior.  
+### Task 2.2 – Connecting the LCD screen  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7b3a199f-3e35-4104-91d0-e1bd653d3704" width="500">
+</p>  
+
+     Small code segment for context:
+lcd.init();  
+lcd.backlight();  
+lcd.setCursor(0,0);  
+lcd.print("LCD Testing");  
+lcd.setCursor(0,1);  
+lcd.print("Hello Khushil!");  
+
+
+    My experience/observation:   
+-> After connecting the LCD screen and installing the required `LiquidCrystal_I2C` library, we successfully displayed text on the LCD using Arduino code.  
+
+
+-> We also experimented with different text messages, cursor positions, and display arrangements on the LCD screen. By modifying the code, we observed how the text output changed dynamically on the display.  
+
+-> This helped us understand how Arduino communicates with the LCD using the I2C protocol.  
+
+
+
 
 
 
