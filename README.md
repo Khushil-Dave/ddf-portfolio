@@ -137,6 +137,80 @@ lcd.print("Hello Khushil!");
 -> We also experimented with different text messages, cursor positions, and display arrangements on the LCD screen. By modifying the code, we observed how the text output changed dynamically on the display.  
 
 -> This helped us understand how Arduino communicates with the LCD using the I2C protocol.  
+### Task 2.3 - Expanding the setup with a Real Time Clock   
+https://github.com/user-attachments/assets/a5d30240-e2eb-4bd5-9990-1216adcd9d7e   
+
+    My experience/observation:
+
+-> In this task, we connected the RTC (Real Time Clock) module with the Arduino using I2C communication.  
+
+
+-> Using the I2C scanner and Serial Monitor in the Arduino IDE, we successfully identified the address of the RTC module and observed the real-time date and time values.  
+
+
+-> We also experimented with the RTC module by disconnecting and reconnecting the circuit, and observed that the module continued keeping the correct time because of its backup battery.  
+
+
+-> This experiment helped us understand how multiple I2C devices can communicate with Arduino using the same communication lines while using different addresses.  
+### Task 2.4 -  Using the Push Button  
+https://github.com/user-attachments/assets/aedfa003-45f7-4933-a784-ab7128eab55b    
+
+    My experience/observation:  
+-> In this task, we connected a push button to the Arduino using the built-in pull-up resistor configuration.  
+ 
+
+-> When the push button was pressed, the Serial Monitor displayed the message “Pushed”. Releasing the button stopped the message output.  
+
+
+-> This helped us understand how Arduino reads digital input signals from a push button using the `INPUT_PULLUP` configuration.    
+
+### Task 2.5 - Building an Alarm Clock  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/68432047-0bef-4abc-a293-83a00de3ef12" width="350">
+  <img src="https://github.com/user-attachments/assets/3e235087-48ff-46a2-a8b2-8ba3c033a0cd" width="350">
+</p>  
+
+https://github.com/user-attachments/assets/66f36df7-c88f-4cf8-b2a1-d0fbdfbc3a56  
+
+--> Firstly, we started with a beginner-level alarm clock circuit by combining a push button, LCD screen, RTC module, and buzzer.  
+
+
+--> The RTC module continuously kept track of the real time, while the LCD displayed the current time. We set the alarm time directly in the Arduino code, and when the current time matched the alarm time, the buzzer started buzzing.  
+
+
+--> We also added a push button feature so that pressing the button turned the alarm OFF.   
+
+<img width="350" height="350" alt="7b446c91-55a2-468f-b77c-c9898d8af955" src="https://github.com/user-attachments/assets/b44cc93d-fafb-44a0-bf99-36904d5c54f3" />  
+
+
+https://github.com/user-attachments/assets/4a54ce8a-561f-4bed-ab7b-1ae1427213d8   
+
+--> After successfully building the basic version, we decided to make the alarm clock more advanced by adding two more push buttons.
+
+- The green button was used to select whether to set the hours or minutes.
+- The white button was used to increase/change the selected hour or minute value.
+- The red button was used to stop the alarm when it started buzzing.
+
+--> This made the alarm clock more interactive and allowed us to control the alarm settings directly using hardware buttons instead of changing the code repeatedly.  
+
+https://github.com/user-attachments/assets/32feefe7-05b7-4eaa-84e4-d2e9dac414fd   
+
+--> To make the project more fun and interactive, we also added a simple math challenge feature to turn OFF the alarm.  
+
+
+--> When the alarm started buzzing, a math question appeared on the LCD screen. The white button was used to increase the answer value, and the red button was used to submit the answer.  
+
+
+--> If the entered answer was correct, the alarm stopped successfully. Otherwise, the alarm continued buzzing until the correct answer was submitted.  
+
+
+
+
+
+
+
+
 
 
 
