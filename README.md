@@ -204,6 +204,17 @@ https://github.com/user-attachments/assets/32feefe7-05b7-4eaa-84e4-d2e9dac414fd
 
 → If the entered answer was correct, the alarm stopped successfully. Otherwise, the alarm continued buzzing until the correct answer was submitted.  
 
+# Exercise 3: Sensors & Actuators  
+
+ ### Task 3.1 – Pneumatic Control System  
+ 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fa5a7635-f429-4342-a246-d447bcf22af5" width="350">
+  <img src="https://github.com/user-attachments/assets/01d8c3aa-15ff-483f-bc01-1ab3ecc8e856" width="350">
+</p>
+
+
+
 
 
 
