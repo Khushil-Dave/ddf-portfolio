@@ -211,7 +211,79 @@ https://github.com/user-attachments/assets/32feefe7-05b7-4eaa-84e4-d2e9dac414fd
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fa5a7635-f429-4342-a246-d447bcf22af5" width="350">
   <img src="https://github.com/user-attachments/assets/01d8c3aa-15ff-483f-bc01-1ab3ecc8e856" width="350">
-</p>
+</p>  
+
+https://github.com/user-attachments/assets/7561f754-c745-459e-bc64-9403d5f2ac7b   
+
+    My experience/observation:
+
+→ In this, we assembled a pneumatic and electrical control circuit using Arduino, MOSFET modules, pumps, and a valve.  
+
+
+→ The system was programmed to go through three different phases:
+
+- Inflation phase → the pumps inflated the air pillow.
+- Hold phase → the system maintained the pressure for a few seconds.
+- Deflation phase → the valve opened and the air was released from the pillow.
+ 
+
+→ By uploading the Arduino code and testing the setup repeatedly, we observed that the pumps and valve operated according to the programmed timing sequence.  
+
+→ During the setup process, we initially made a mistake while connecting the DC motors because both air tubes were connected to the outlet side. As a result, the airflow did not work correctly. After realizing the issue, we corrected the tube connections and the pneumatic system started functioning properly. 
+
+
+
+→ We also encountered some issues in the inflation part of the Arduino code. After correcting the control logic and assigning the proper output pins, the system worked as expected.
+
+    Small code snippet:  
+    
+```cpp
+digitalWrite(PUMP1_PIN, LOW);
+digitalWrite(PUMP2_PIN, HIGH);
+delay(5000);
+```
+### Task 3.2 – Integrating the Sensor  
+<img width="300" height="300" alt="WhatsApp Image 2026-05-25 at 12 57 53 PM" src="https://github.com/user-attachments/assets/53570289-4e6e-4b70-9f85-e84d075f4ef9" />  
+
+https://github.com/user-attachments/assets/536855be-7b86-49a9-a794-2d6d23c58e7b  
+
+https://github.com/user-attachments/assets/34332c60-f2ad-42d4-a2e3-6a5d991e8092  
+
+
+    My experience/observation:
+→ In this task, we expanded the pneumatic control system by integrating a PIR motion sensor with the Arduino setup.  
+
+
+→ The motion sensor continuously monitored movement in front of the system. When motion was detected, the Arduino automatically activated the inflation phase by turning ON Pump 2 and closing the valve, causing the air pillow to inflate.  
+
+
+→ When no motion was detected, the system switched to the deflation phase. Pump 2 turned OFF, the valve opened, and Pump 1 activated to release the air from the system.  
+
+
+→ We also monitored the system behavior using the Serial Monitor, where messages such as “Motion Detected” and “Area Clear” were displayed according to the sensor readings.  
+
+
+→ This experiment helped us understand how sensor input can be used to automate pneumatic systems using Arduino and MOSFET-controlled actuators.  
+
+    Small code snippet:
+→ This code controls the inflation and deflation behavior based on the PIR motion sensor input.  
+```cpp
+if (currentMotionState == HIGH) {
+
+  digitalWrite(VALVE_PIN, LOW);
+  digitalWrite(PUMP2_PIN, HIGH);
+
+} else {
+
+  digitalWrite(VALVE_PIN, HIGH);
+  digitalWrite(PUMP1_PIN, HIGH);
+}
+```
+
+
+
+
+
 
 
 
