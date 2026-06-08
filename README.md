@@ -280,6 +280,46 @@ if (currentMotionState == HIGH) {
 }
 ```
 
+# Exercise 4: E-Textiles  
+ 
+    Components Used:
+→  Conductive thread (copper)  
+
+→  LED 
+
+→  Battery holder 
+
+→  Coin cell battery 
+
+→  Fabric  
+
+→  Sewing needle 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/969b94e6-4a53-4d39-9e41-3b86be150af6" width="300">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5b9846a6-7707-4b31-ae57-46b5d8cbf537" width="250">
+  <img src="https://github.com/user-attachments/assets/01769fd2-6ebc-4df6-bb57-afb9110fda52" width="250">
+</p>  
+    
+    My experience/observation:
+
+→ In this exercise, I created an e-textile project using conductive thread, LEDs, fabric, and a battery holder.  
+
+
+→ My first design was a flower-shaped fabric with five LEDs. Since sewing was a completely new experience for me, I found it challenging to keep the fabric flat while stitching the conductive thread. As a result, the fabric became wrinkled and compressed, which affected the appearance of the final piece. However, I was pleased that all the LEDs functioned correctly.  
+
+
+→ To improve the design, I created a second and larger fabric shape. The larger size made sewing easier and helped prevent the fabric from becoming distorted. Initially, I thought the circuit was not working because of a wiring or short-circuit issue, but after troubleshooting, I discovered that the battery had been drained because I had accidentally left it connected for several hours. After replacing the battery, the LEDs worked correctly again.  
+
+
+→ For my final design, I created a moon-shaped e-textile project, which was both visually cleaner and more reliable. This exercise was a completely new experience for me and helped me learn basic sewing techniques, conductive thread connections, and troubleshooting methods for wearable electronics.  
+
+
+
+
 
 
 
