@@ -317,6 +317,10 @@ if (currentMotionState == HIGH) {
 
 → For my final design, I created a moon-shaped e-textile project, which was both visually cleaner and more reliable. This exercise was a completely new experience for me and helped me learn basic sewing techniques, conductive thread connections, and troubleshooting methods for wearable electronics.  
 
+# Training Dashboard of CAD Course:  
+<img width="1860" height="865" alt="Screenshot 2026-06-21 151046" src="https://github.com/user-attachments/assets/afed59c6-3283-4e1e-ab98-b769d51b5fd1" />
+
+
 
 
 
