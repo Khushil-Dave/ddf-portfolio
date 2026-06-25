@@ -317,6 +317,61 @@ if (currentMotionState == HIGH) {
 
 → For my final design, I created a moon-shaped e-textile project, which was both visually cleaner and more reliable. This exercise was a completely new experience for me and helped me learn basic sewing techniques, conductive thread connections, and troubleshooting methods for wearable electronics.  
 
+# Exercise 5: CNC milling  
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a4774558-6cc8-43f5-9f0e-4869c4e191f1" width="300">
+  <img src="https://github.com/user-attachments/assets/b2b90da8-1a9b-4432-9b3e-14eba5a79928" width="400">
+</p>  
+
+    My experience/observation:
+→ This exercise introduced me to Inkscape and CNC milling. Since it was my first time using Inkscape, I initially found the software challenging to understand. However, after experimenting with the different tools and following the instructions, I gradually became more comfortable with creating vector shapes and editing designs.  
+
+
+→ For my design, I created a flower-shaped candle holder. It was interesting to see how a digital sketch could later be converted into toolpaths for CNC machining.  
+
+
+→ Another highlight of this exercise was seeing a CNC milling machine for the first time. Watching the machine transform a digital design into a physical object was an amazing experience. It helped me understand the connection between digital design and fabrication.  
+
+
+→ Overall, this exercise was both challenging and enjoyable. It gave me my first experience with vector design software and CNC manufacturing, and I learned a lot about the design-to-production workflow.  
+
+# Exercise 6: Laser Cut Business Cards.  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c11685fa-cb36-4fb6-9a4d-cad69f58b2ba" width="350">
+  <img src="https://github.com/user-attachments/assets/fce024ea-e156-4962-b57c-958bf7527602" width="350">
+</p>  
+
+
+
+https://github.com/user-attachments/assets/e189937a-e3d8-4d1a-8f46-adcc46b99386  
+
+
+
+
+
+https://github.com/user-attachments/assets/d05fe7b6-2467-442e-b328-1bc181586ede
+
+
+    My experience/observation:
+→ In this exercise, we designed and manufactured a laser-cut business card using Inkscape and a laser cutter. This was the first business card I had ever created, making the experience both interesting and enjoyable.  
+
+
+→ I was surprised by the variety of results that could be achieved using different materials. Even though the designs were similar, the final appearance changed significantly depending on the material used for the card.  
+
+
+→ During the exercise, I observed that some students experienced issues with their designs because the laser cutter could not properly detect certain outlines. As a result, the cutting process stopped before their cards were completed. Fortunately, I did not encounter this problem, and my business card was successfully manufactured.  
+
+
+→ Another exciting part of this exercise was operating a laser cutter for the first time. Watching the machine precisely follow the design and cut the material was fascinating. It was amazing to see how a digital design could quickly become a physical object.  
+
+
+→ Overall, this exercise was a fun and valuable learning experience. It improved my design skills in Inkscape and gave me my first hands-on experience with laser cutting technology.  
+
+
+
+
 # Training Dashboard of CAD Course:  
 <img width="1860" height="865" alt="Screenshot 2026-06-21 151046" src="https://github.com/user-attachments/assets/afed59c6-3283-4e1e-ab98-b769d51b5fd1" />
 
