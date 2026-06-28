@@ -355,19 +355,27 @@ https://github.com/user-attachments/assets/d05fe7b6-2467-442e-b328-1bc181586ede
 
 
     My experience/observation:
+
 → In this exercise, we designed and manufactured a laser-cut business card using Inkscape and a laser cutter. This was the first business card I had ever created, making the experience both interesting and enjoyable.  
 
 
-→ I was surprised by the variety of results that could be achieved using different materials. Even though the designs were similar, the final appearance changed significantly depending on the material used for the card.  
+→ I designed a simple and clean business card that included my basic contact information, such as my name, phone number, and email address. To make it more useful, I also added a QR code that directly links to my portfolio, allowing anyone to quickly access my work by scanning it with a smartphone.  
 
 
-→ During the exercise, I observed that some students experienced issues with their designs because the laser cutter could not properly detect certain outlines. As a result, the cutting process stopped before their cards were completed. Fortunately, I did not encounter this problem, and my business card was successfully manufactured.  
+→ I first created the design in Inkscape by arranging the layout, text, and vector outlines required for laser cutting. After completing the design, it was sent to the laser cutter, which precisely followed the outlines to cut and engrave the selected material. It was fascinating to see how a digital design was transformed into a physical business card.  
 
 
-→ Another exciting part of this exercise was operating a laser cutter for the first time. Watching the machine precisely follow the design and cut the material was fascinating. It was amazing to see how a digital design could quickly become a physical object.  
+→ I was also surprised by the variety of results that could be achieved using different materials. Even though the designs were similar, the final appearance changed significantly depending on the material used.  
 
 
-→ Overall, this exercise was a fun and valuable learning experience. It improved my design skills in Inkscape and gave me my first hands-on experience with laser cutting technology.  
+→ During the exercise, I observed that some students experienced problems because the laser cutter could not correctly detect parts of their outlines. As a result, the cutting process stopped before their cards were completed. Fortunately, I did not encounter this issue, and my business card was successfully manufactured on the first attempt. Watching these problems helped me understand the importance of carefully checking vector outlines before laser cutting.  
+
+
+→ Another exciting part of this exercise was operating a laser cutter for the first time. Watching the machine precisely cut the design was both exciting and enjoyable.  
+
+
+→ Overall, this exercise improved my Inkscape skills and gave me my first hands-on experience with laser cutting technology.  
+
 
 
 
